@@ -1,0 +1,22 @@
+{
+    "name": "niw/flashingmessage",
+    "type": "library",
+    "description": "Class for handling flash messages in php and html",
+    "keywords": ["status", "session", "message"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Niwhede",
+            "email": "niwhede@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "TBM\\": "src/" }
+    }
+}

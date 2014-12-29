@@ -1,0 +1,92 @@
+/**
+* Based on http://dbwebb.se/coachen/en-navbar-med-drop-down-meny-i-ren-html-och-css
+* Changed to only style li-items instead of a.
+*/
+#navbar {
+font-size: 0.9em;
+font-weight: 400;
+float: left;
+}
+.navbar {
+background-color: #333;
+margin-top: 2em;
+}
+.navbar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+/*border-bottom: 1px solid #777;*/
+}
+.navbar li {
+display: inline-block;
+color: #fff;
+position: relative;
+}
+.navbar a {
+display: block;
+padding: 0 1.5em;
+line-height: 3.5em;
+text-decoration: none;
+color: inherit;
+white-space: nowrap;
+color: #999;
+transition: color 0.1s ease;
+}
+.navbar li.selected-parent > a,
+.navbar li.selected > a {
+color: #ffff33;
+}
+.navbar li:hover > a {
+color: #fff;
+}
+.navbar li li.selected > a {
+color: #ffff33;
+}
+.navbar ul ul {
+padding: 5px 0;
+background-color: #333;
+position: absolute;
+left: -9999px;
+z-index: 2;
+border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+min-width: 200px;
+}
+.navbar li li {
+width: 100%;
+float: left;
+display: inline;
+}
+.navbar li li a {
+padding: 0 2em;
+line-height: 2.5em;
+color: #999;
+}
+.navbar li:hover ul {
+left: 0;
+}
+.navbar li li:hover a {
+color: #fff;
+}
+.nav-icon {
+margin-right: 10px;
+}
+
+#tiny_tri_navbar {
+color: #fff;
+font-size: 1.2em;
+font-weight: 400;
+}
+
+.tiny_tri_navbar {
+background-color: #333;
+}
+
+.tiny_tri_navbar a{
+margin: 1em;
+color: #999;
+}
+
+.tiny_tri_navbar a:hover{
+color: #fff;
+}

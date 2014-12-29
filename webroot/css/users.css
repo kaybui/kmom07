@@ -1,0 +1,45 @@
+.userList {
+  padding: 10px;
+  width: 800px;
+}
+.user {
+  display: block;
+  background-color: #F1F1F1;
+  padding: 4px;
+  border: 1px solid #1495FF;
+  max-width: 206px;
+  max-height: 90px;
+  min-height: 90px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.userProfile {
+  max-width: 800px;
+  margin-left: 80px;
+  background-color: #F1F1F1;
+  border: 1px solid #1495FF;
+  min-height: 300px;
+  padding: 10px;
+}
+.firstPageProfile {
+  display: block;
+  position: relavite;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #1495FF;
+  min-width: 150px;
+  box-shadow: 1px 1px 1px #888888;
+  float: left;
+  margin-right: 10px;
+}
+.mostLoggedOn {
+  margin-left: 80px;
+  min-height: 150px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+

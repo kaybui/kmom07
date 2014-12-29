@@ -1,0 +1,28 @@
+.comments {
+  background-color: #F1F1F1;
+  max-width: 600px;
+  margin-left: 80px;
+}
+.commentsOnAnswers {
+  background-color: #F1F1F1;
+  max-width: 600px;
+}
+
+.comments a {
+  text-decoration: none;
+  color: #1495ff;
+}
+.comment {
+  border-top: 1px dashed lightgray;
+  margin-top: 10px;
+  /*background-color: #F1F1F1;*/
+  min-height: 50px;
+  margin-left: 20px;
+}
+fieldset {
+  border: 1px solid white;
+}
+.article2 {
+  font-size: smaller;
+  margin: 10px;
+}

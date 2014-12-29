@@ -1,0 +1,124 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(comment.css);
+@import url(table.css);
+@import url(form.css);
+@import url(navbar.css);
+@import url(question.css);
+@import url(users.css);
+@import url(user.css);
+@import url(tags.css);
+@import url(button.css);
+
+body {
+color: #333;
+font-family: 'Open Sans', sans-serif;
+overflow-y: scroll;
+background-color: #fff;
+margin: 0;
+}
+
+a {
+color: #333;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+
+#main > h1 {
+font-size: 2.2em;
+border-bottom: 1px solid #ccc;
+margin-bottom: 20px;
+font-size: 1.5em;
+}
+
+/**
+* Layout of the main page elements
+*/
+#wrapper {
+margin: 0 auto;
+width: 980px;
+padding: 10px;
+}
+/**
+* Layout for header
+*/
+#header {
+position: relative;
+margin-bottom: 40px;
+background-color: #333;
+}
+.sitelogo {
+float: left;
+margin: 8px 50px 0;
+background-color: #333;
+}
+
+/**
+* Layout for main
+*/
+#main {
+min-height: 20em;
+}
+/**
+* Layout for footer
+*/
+#footer {
+margin-top: 40px;
+border-top: 1px solid #ccc;
+padding-top: 22px;
+}
+.sitefooter {
+color: #666;
+}
+/**
+* For articles
+*/
+.article1 {
+width: 700px;
+line-height: 1.5;
+}
+
+.cf:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.gravatar {
+  float:left;
+}
+
+}
+.right {
+  float: right;
+  position: relative;
+}
+.left {
+  float: left;
+}
+aside {
+  float: left;
+  margin-left: 50px;
+}
+div#box {
+  background-color: #1495FF;
+  padding: 15px;
+}
+div#box a {
+  color: white;
+  text-decoration: none;
+}
+textarea {
+  min-height: 200px;
+}
+.gray {
+  color: gray;
+}
+.padd {
+  padding: 4px;
+}

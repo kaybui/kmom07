@@ -1,0 +1,63 @@
+
+/**
+* Style for user controller
+*/
+/* Style for whole wrapper */
+.user-wrapper {
+width : 50%;
+overflow : hidden;
+margin-bottom : 30px;
+}
+/* Style for individual user */
+.user-individual {
+width : 450px;
+height : 65px;
+float : left;
+padding : 10px;
+margin: 10px;
+}
+/* Style for user link text */
+.user-individual a {
+text-decoration : none;
+color : black;
+}
+.user-individual a:hover {
+text-decoration: underline;
+}
+.user-info {
+    float: left;
+    margin-right: 20px;
+    width: 320px;
+}
+div.profile-wrapper {
+margin-right: auto;
+margin-left: auto;
+width: 400px;
+-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+border-radius: 10px;
+margin-bottom: 20px;
+padding-bottom: 10px;
+}
+div.profile-wrapper:hover {
+-webkit-box-shadow : inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+moz-box-shadow : inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+box-shadow : inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+}
+div.profile-wrapper h2, div.profile-wrapper p {
+text-align: center;
+}
+div.profile-wrapper a {
+display: block;
+text-align: center;
+}
+div.profile-wrapper a:hover {
+text-decoration: underline;
+}
+div.profile-wrapper img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+}
